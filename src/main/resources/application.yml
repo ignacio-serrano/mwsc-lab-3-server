@@ -1,0 +1,6 @@
+spring
+  cloud
+    config
+      server
+        git
+          uri: https://github.com/ignacio-serrano/mwsc-lab-3-config.git

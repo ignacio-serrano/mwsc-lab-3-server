@@ -12,10 +12,9 @@
 	<description>lab-3-server</description>
 
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.3.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<groupId>org.springframework.cloud</groupId>
+		<artifactId>spring-cloud-starter-parent</artifactId>
+		<version>Dalston.RELEASE</version>
 	</parent>
 
 	<properties>
@@ -26,10 +25,9 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-config-server</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -45,6 +43,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
 
 </project>
