@@ -1,0 +1,28 @@
+{
+	"variables": [],
+	"info": {
+		"name": "mwsc-lab3-server",
+		"_postman_id": "c2cb4fd0-dd6a-4860-c353-9f231bafe24b",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8001/lab-3-client/default/",
+			"request": {
+				"url": "http://localhost:8001/lab-3-client/default/",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic dXNlcjphNjFiYmNkZS0zMDZiLTQwOWItYmZmNi1mOTcxMDU1YWM3MDM=",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
